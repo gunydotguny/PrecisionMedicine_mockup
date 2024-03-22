@@ -463,6 +463,7 @@ export default function PersonalizedPanel() {
                     m: theme.spacing(0, 0, 0, 1)
                 }
             }}>
+                
                 <Tab label={
                     <Box sx={{ display: 'flex' }}>My Cohort<div className='count'>10,323명</div></Box>
                 } {...a11yProps(0)} />
